@@ -18,24 +18,10 @@
 <externallink>https://pastebin.com/raw/VtbMm08w</externallink>
 </item> 
 
-<item>
-<title>ES | Warner Bros. Kids</title>
-<link>$doregex[getUrl]</link>
-<regex>
-<name>getUrl</name>
-<expres><![CDATA[#$pyFunction
-import re,urllib2,resolveurl
-def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
-  source=urllib2.urlopen('https://www.youtube.com/channel/UCB82v6uKp1S-I-DVoL2neDA').read()
-  return resolveurl.resolve('https://www.youtube.com//watch?v='+re.findall('"watchEndpoint":{"videoId":"([^"]+)',source)[0])
-]]></expres>
-<page></page>
-</regex>
-<fanart>https://i.imgur.com/uDPFkk6.jpg</fanart> 
-</item>  
+ 
 
 
 
-<
+
 
 
